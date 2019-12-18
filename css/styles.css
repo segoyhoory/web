@@ -5,8 +5,187 @@
 
 body {
 
-  width: 1440px;
-  height: 2862px;
-  background: #D7A4FF;
+width: 1440px;
+height: 900px;
 
+background: #D7A4FF;
+
+}
+
+ #piece {
+
+   position: absolute;
+   left: 24.17%;
+   right: 65.4%;
+   top: 51.78%;
+   width: 150.24px;
+   height: 297.98px;
+
+   background: #8135BC;
+
+}
+
+#piece 1 {
+
+  position: absolute;
+left: 35.97%;
+right: 60.35%;
+top: 22.11%;
+bottom: 57.5%;
+
+background: #6330B5;
+
+}
+
+#piece 2 {
+
+position: absolute;
+left: 52.08%;
+right: 37.48%;
+top: 38.89%;
+bottom: 28.82%;
+
+background: #3B007F;
+
+}
+
+#piece 3 {
+  position: absolute;
+  left: 32.01%;
+  right: 59.29%;
+  top: 46.33%;
+  bottom: 31.64%;
+
+  background: #3B047C;
+}
+
+
+#piece 4 {
+  position: absolute;
+  left: 58.61%;
+  right: 35.06%;
+  top: 2.89%;
+  bottom: 71.53%;
+
+  background: #6A16EF;
+}
+
+#piece 5 {
+  position: absolute;
+  left: 68.82%;
+  right: 23.31%;
+  top: 42.67%;
+  bottom: 28.74%;
+
+  background: #5B09C6;
+}
+
+#piece 6 {
+  position: absolute;
+  left: 44.1%;
+  right: 48.81%;
+  top: 86.78%;
+  bottom: 4.06%;
+
+  background: #2D056D;
+}
+
+#piece 7 {
+  position: absolute;
+  left: 43.26%;
+  right: 45.83%;
+  top: 3.56%;
+  bottom: 63.88%;
+
+  background: #C852FF;
+}
+
+#piece 8 {
+  position: absolute;
+  left: 32.92%;
+  right: 61.01%;
+  top: 4.22%;
+  bottom: 82.44%;
+
+  background: #C972F7;
+}
+
+#piece 9 {
+  position: absolute;
+  left: 24.65%;
+  right: 70.64%;
+  top: 23.67%;
+  bottom: 54.53%;
+
+  background: #9D6EF9;
+}
+
+#piece 10 {
+  position: absolute;
+  left: 60.07%;
+  right: 33.26%;
+  top: 29.78%;
+  bottom: 44.9%;
+
+  background: #B368FC;
+}
+
+#piece 11 {
+  position: absolute;
+  left: 45.83%;
+  right: 50.57%;
+  top: 66.56%;
+  bottom: 23.87%;
+
+  background: #6A07DD;
+}
+
+#piece 12 {
+  position: absolute;
+  left: 61.74%;
+  right: 31.94%;
+  top: 63.33%;
+  bottom: 16.3%;
+
+  background: #B466FF;
+}
+
+#piece 13 {
+  position: absolute;
+  left: 53.47%;
+  right: 39.5%;
+  top: 73.89%;
+  bottom: 6.55%;
+
+  background: #6204BC;
+}
+
+#piece 14 {
+  position: absolute;
+  left: 68.82%;
+  right: 26.22%;
+  top: 22.11%;
+  bottom: 58.87%;
+
+  background: #6406B7;
+}
+
+#piece 15 {
+  position: absolute;
+  left: 40.69%;
+  right: 51.23%;
+  top: 36.11%;
+  bottom: 34.47%;
+
+  background: #8709C9;
+}
+
+#piece 16 {
+  position: absolute;
+  left: 37.15%;
+  right: 59.3%;
+  top: 74%;
+  bottom: 10.95%;
+
+  background: #AA38F4;
 }
