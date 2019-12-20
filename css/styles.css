@@ -9,182 +9,20 @@ background: #D7A4FF;
 
 }
 
-#piece {
 
-position: absolute;
-left: 24.17%;
-right: 65.4%;
-top: 51.78%;
-bottom: 15.11%;
-animation-name: fade;
-animation-duration: 5s;
-animation-iteration-count: infinite;
 
-}
+
 
 @keyframes fade {
 0% {opacity: 0}
 50%{opacity:1;}
 100%{opacity:0;}
-}
-
-#piece1 {
-
-position: absolute;
-left: 35.97%;
-right: 60.35%;
-top: 22.11%;
-bottom: 57.5%;
 
 }
 
-#piece2 {
-
-position: absolute;
-left: 52.08%;
-right: 37.48%;
-top: 38.89%;
-bottom: 28.82%;
-
-}
-
-#piece3 {
-
-  position: absolute;
-  left: 32.01%;
-  right: 59.29%;
-  top: 46.33%;
-  bottom: 31.64%;
-
-}
-
-#piece4 {
-
-  position: absolute;
-  left: 58.61%;
-  right: 35.06%;
-  top: 2.89%;
-  bottom: 71.53%;
-
-}
-
-#piece5 {
-
-  position: absolute;
-  left: 68.82%;
-  right: 23.31%;
-  top: 42.67%;
-  bottom: 28.74%;
-
-}
-
-#piece6 {
-
-  position: absolute;
-  left: 44.1%;
-  right: 48.81%;
-  top: 86.78%;
-  bottom: 4.06%;
-
-}
-
-#piece7 {
-
-  position: absolute;
-  left: 43.26%;
-  right: 45.83%;
-  top: 3.56%;
-  bottom: 63.88%;
-
-}
-
-#piece8 {
-
-  position: absolute;
-  left: 32.92%;
-  right: 61.01%;
-  top: 4.22%;
-  bottom: 82.44%;
-
-}
-
-#piece9 {
-
-  position: absolute;
-  left: 24.65%;
-  right: 70.64%;
-  top: 23.67%;
-  bottom: 54.53%;
-
-}
-
-#piece10 {
-
-  position: absolute;
-  left: 60.07%;
-  right: 33.26%;
-  top: 29.78%;
-  bottom: 44.9%;
-
-}
-
-#piece11 {
-
-  position: absolute;
-  left: 45.83%;
-  right: 50.57%;
-  top: 66.56%;
-  bottom: 23.87%;
-
-}
-
-#piece12 {
-
-  position: absolute;
-  left: 61.74%;
-  right: 31.94%;
-  top: 63.33%;
-  bottom: 16.3%;
-
-}
-
-#piece13 {
-
-  position: absolute;
-  left: 53.47%;
-  right: 39.5%;
-  top: 73.89%;
-  bottom: 6.55%;
 
 
-}
 
-#piece14 {
 
-  position: absolute;
-  left: 68.82%;
-  right: 26.22%;
-  top: 22.11%;
-  bottom: 58.87%;
-
-}
-
-#piece15 {
-
-  position:absolute;
-  left: 40.69%;
-  right: 51.23%;
-  top: 36.11%;
-  bottom: 34.47%;
-
-}
-
-#piece16 {
-
-  position: absolute;
-  left: 37.15%;
-  right: 59.3%;
-  top: 74%;
-  bottom: 10.95%;
 
 }
