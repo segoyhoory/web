@@ -1,27 +1,60 @@
-@import 'reset.css';
+body,html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
+.box {
+  height: 100%;
+  width: 100%
+}
 
+.grandDynamic {
+  position: relative;
+}
 
+.grandDynamic:after, .grandDynamic:before {
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:-1;
+}
 
+.grandDynamic:after {
+  background:radial-gradient(circle,red,transparent);
+  background-size:400%;
+  animation:colorSpin 30s Linear infinite;
+
+}
 body {
 
 background: #D7A4FF;
 
 }
+.piece {
 
-
-
-
-
-@keyframes fade {
-0% {opacity: 0}
-50%{opacity:1;}
-100%{opacity:0;}
+background-size: 200%;
+background-image: linear-gradient(to bottom left, #fe87c3 0%, #828dfe 50%, #6d58f3 100%);
+transition: 600ms ease;
 
 }
 
+.piece {
+animation: fade 0.5s  1 ;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes fade {
 
 
+
+
+from {opacity:1;}
+
+to {opacity:0;}
 
 
 
