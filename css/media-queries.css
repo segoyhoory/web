@@ -2,13 +2,14 @@
 
 .piece {
 
-    width: 150.24px;
-    height: 297.98px;
-    position: absolute;
+  width: 150.24px;
+  height: 297.98px;
+  position: absolute;
   left: 24.17%;
   right: 65.4%;
   top: 51.78%;
   bottom: 15.11%;
+
 
   }
 
@@ -28,10 +29,10 @@
   width: 150.24px;
   height: 290.6px;
   position: absolute;
-left: 52.08%;
-right: 37.48%;
-top: 38.89%;
-bottom: 28.82%;
+  left: 52.08%;
+  right: 37.48%;
+  top: 38.89%;
+  bottom: 28.82%;
 
 }
 
@@ -39,10 +40,10 @@ bottom: 28.82%;
   width: 125.19px;
   height: 198.25px;
   position: absolute;
-left: 32.01%;
-right: 59.29%;
-top: 46.33%;
-bottom: 31.64%;
+  left: 32.01%;
+  right: 59.29%;
+  top: 46.33%;
+  bottom: 31.64%;
 
 }
 
