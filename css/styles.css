@@ -1,61 +1,190 @@
-body,html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+@import "reset.css";
 
-.box {
-  height: 100%;
-  width: 100%
-}
-
-.grandDynamic {
-  position: relative;
-}
-
-.grandDynamic:after, .grandDynamic:before {
-  position: absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  z-index:-1;
-}
-
-.grandDynamic:after {
-  background:radial-gradient(circle,red,transparent);
-  background-size:400%;
-  animation:colorSpin 30s Linear infinite;
-
-}
 body {
 
-background: #D7A4FF;
+
+  background: #D7A4FF;
+
 
 }
+
+
+
 .piece {
 
-background-size: 200%;
-background-image: linear-gradient(to bottom left, #fe87c3 0%, #828dfe 50%, #6d58f3 100%);
-transition: 600ms ease;
+  animation: animpiece 0.5s  1 ;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
 
 }
 
-.piece {
-animation: fade 0.5s  1 ;
-animation-fill-mode: forwards;
+.line1 {
+
+  animation: fade 0.5s  1 ;
+  animation-fill-mode: both;
+  animation-delay: 3S;
 
 }
+
+@keyframes animpiece {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(164px, -43px, 0px);}
+
+}
+
+@keyframes animpiece1 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(69.52px, 1px, 0px);}
+
+}
+
+@keyframes animpiece2 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(-52.61px, 0px, 0px);}
+
+}
+
+@keyframes animpiece3 {
+
+0% {transform: translate3d(50px, 40px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(76.94px, -28.79px, 0px);}
+
+}
+
+@keyframes animpiece4 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(-99.34px, 105px, 0px);}
+
+}
+
+@keyframes animpiece5 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(-177.69px, -24px, 0px);}
+
+}
+
+@keyframes animpiece6 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(-4px, -101.05px, 0px);}
+
+}
+
+@keyframes animpiece7 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(0px, 71.72px, 0px);}
+
+}
+
+@keyframes animpiece8 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(113.36px, 87px, 0px);}
+
+}
+
+@keyframes animpiece9 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(165.05px, 32px, 0px);}
+
+}
+
+@keyframes animpiece10 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(-97.05px, 20px, 0px);}
+
+}
+
+@keyframes animpiece11 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(0px, -58.18px, 0px);}
+
+}
+
+@keyframes animpiece12 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(-144.33px, -28px, 0px);}
+
+}
+
+@keyframes animpiece13 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(-95px, -79px, 0px);}
+
+}
+
+@keyframes animpiece14 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(-155.63px, 78px, 0px);}
+
+}
+
+@keyframes animpiece15 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(1px, -7px, 0px);}
+
+}
+
+@keyframes animpiece16 {
+
+0% {transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;}
+
+100% {transform: translate3d(94.22px, -80px, 0px);}
+
+}
+
+
 
 @keyframes fade {
 
+from {opacity:0;}
 
-
-
-from {opacity:1;}
-
-to {opacity:0;}
-
-
+to {opacity:1;}
 
 }
